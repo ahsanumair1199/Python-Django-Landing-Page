@@ -6,12 +6,12 @@ def home(request):
     return render(request, 'index.html')
 
 def send_mail1(request):
-    if request.method == 'POST':
+    if request.POST['name'] and request.POST['email']:
         name = request.POST['name']
         email = request.POST['email']
         send_mail(
             'Best Mobiles Shop',
-            'Thank You For Subscribing at Our Website.',
+            'Thank You {} For Subscribing at Our Website.'.format(name),
             'ahsanumair1199@gmail.com',
             [email],
             fail_silently=False,
