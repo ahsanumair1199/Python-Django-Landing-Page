@@ -1,0 +1,77 @@
+.top-line {
+  background-color: #ff914c;
+  height: 35px;
+}
+.h {
+  margin-top: 15px;
+}
+.h h1 {
+  color: #ff914c;
+  font-weight: 1000;
+  letter-spacing: 2px;
+  font-size: 2.2rem;
+}
+.h h3 {
+  color: #5d5d5d;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.container {
+  margin-top: 15px;
+}
+.container h4 {
+  color: #ff914c;
+  font-weight: bold;
+  text-align: center;
+}
+.container p {
+  text-align: center;
+}
+.subscribe_now {
+  text-align: center;
+  line-height: 10px;
+  margin-top: 70px;
+  padding: 2px;
+}
+.subscribe_now h3 {
+  font-weight: bold;
+  color: #ff914c;
+}
+.subscribe_now p {
+  font-size: 20px;
+}
+.deals {
+  margin-top: 30px;
+}
+.sub-form {
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+.sub-form h3 {
+  font-weight: bold;
+  color: #ff914c;
+}
+.sub-form form {
+  padding: 10px;
+}
+.form-group {
+  padding: 15px;
+  width: 60%;
+  background-color: #5d5d5d;
+}
+.form-group input {
+  border: none;
+  height: 50px;
+}
+.sub-form button {
+  margin-top: 10px;
+  width: 40%;
+  height: 50px;
+  font-weight: bold;
+  font-size: 21px;
+  background-color: #ff914c;
+  border: none;
+}
+.sub-form button:hover {
+  background-color: #ff914c;
+}
