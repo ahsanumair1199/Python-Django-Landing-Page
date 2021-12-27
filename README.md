@@ -1,4 +1,4 @@
-# ahsanmobileshop Landing Page
+# Cell Phones Ecommerce Landing Page
 
 Live Demo: http://ahsanlandingpage.herokuapp.com/
 
